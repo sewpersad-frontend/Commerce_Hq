@@ -1,74 +1,40 @@
-# Welcome to your Lovable project
+# Commerce_Hq
 
-## Project info
+## 🚀 Over dit project
+Dit project is gebouwd met moderne webtechnologieën om een snelle en schaalbare webapplicatie neer te zetten.  
 
-**URL**: https://lovable.dev/projects/09289dbd-0b7e-4b6c-8d3d-7b41607b87ba
+## 🔧 Technologieën
+- [Vite](https://vitejs.dev/) – bundler en dev server  
+- [React](https://reactjs.org/) – frontend framework  
+- [TypeScript](https://www.typescriptlang.org/) – type-veiligheid  
+- [shadcn-ui](https://ui.shadcn.com/) – UI component library  
+- [Tailwind CSS](https://tailwindcss.com/) – utility-first CSS framework  
 
-## How can I edit this code?
-
-There are several ways of editing your application.
-
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/09289dbd-0b7e-4b6c-8d3d-7b41607b87ba) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
+## 🖥️ Installatie
+Om dit project lokaal te draaien:
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
+# Stap 1: Clone de repository
 git clone <YOUR_GIT_URL>
 
-# Step 2: Navigate to the project directory.
+# Stap 2: Ga naar de projectmap
 cd <YOUR_PROJECT_NAME>
 
-# Step 3: Install the necessary dependencies.
-npm i
+# Stap 3: Installeer dependencies
+npm install
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Stap 4: Start de dev server
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+De applicatie draait nu op:  
+👉 [http://localhost:5173](http://localhost:5173)
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 🌍 Deploy
+Je kunt dit project eenvoudig deployen via:
+- [Vercel](https://vercel.com/)
+- [Netlify](https://www.netlify.com/)
+- [GitHub Pages](https://pages.github.com/)
 
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/09289dbd-0b7e-4b6c-8d3d-7b41607b87ba) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
-# Commerce_Hq
+## 📄 Licentie
+Dit project is privé en bedoeld voor leer- en ontwikkelingsdoeleinden.
