@@ -1,40 +1,38 @@
-# Commerce_Hq
+📖 About this project
 
-## 🚀 Over dit project
-Dit project is gebouwd met moderne webtechnologieën om een snelle en schaalbare webapplicatie neer te zetten.  
+This project is a full-stack web application built with a modern development stack:
+Frontend: React + Vite + TypeScript + Tailwind CSS
+Backend: Node.js + Express + MongoDB (Atlas)
+Authentication: Secure user registration & login with hashed passwords (bcrypt) and JWT tokens
+Security: Helmet, CORS, rate limiting, environment variables (.env)
+Proxy setup: API requests (/api/...) are automatically proxied from the frontend (port 8080) to the backend (port 4000)
 
-## 🔧 Technologieën
-- [Vite](https://vitejs.dev/) – bundler en dev server  
-- [React](https://reactjs.org/) – frontend framework  
-- [TypeScript](https://www.typescriptlang.org/) – type-veiligheid  
-- [shadcn-ui](https://ui.shadcn.com/) – UI component library  
-- [Tailwind CSS](https://tailwindcss.com/) – utility-first CSS framework  
+🔎 Features
+🔐 User registration and login system
+✅ Passwords stored securely using bcrypt hashing
+🔑 JWT-based authentication for protected routes
+🌍 MongoDB Atlas database connection with environment-based configuration
+⚡ Fast development experience using Vite and hot-reload
+🛡️ API security with Helmet, CORS and rate limiting
 
-## 🖥️ Installatie
-Om dit project lokaal te draaien:
+🚀 How it works
 
-```sh
-# Stap 1: Clone de repository
-git clone <YOUR_GIT_URL>
+Start the backend with:
+npm run server:dev
 
-# Stap 2: Ga naar de projectmap
-cd <YOUR_PROJECT_NAME>
-
-# Stap 3: Installeer dependencies
-npm install
-
-# Stap 4: Start de dev server
+Start the frontend with:
 npm run dev
-```
 
-De applicatie draait nu op:  
-👉 [http://localhost:5173](http://localhost:5173)
+Or run both together with:
+npm run fullstack
 
-## 🌍 Deploy
-Je kunt dit project eenvoudig deployen via:
-- [Vercel](https://vercel.com/)
-- [Netlify](https://www.netlify.com/)
-- [GitHub Pages](https://pages.github.com/)
+Visit http://localhost:8080
+for the frontend.
 
-## 📄 Licentie
-Dit project is privé en bedoeld voor leer- en ontwikkelingsdoeleinden.
+## 📄 License
+This project is private and intended for learning and development purposes.
+
+
+
+API available at http://localhost:4000/api
+.
